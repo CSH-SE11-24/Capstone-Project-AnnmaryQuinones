@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ .navbar {
+  min-height:100px;
+  
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#leftbtn {
+  margin-left: 40px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f9bf26;
+  color: #7f6003;
+  text-align: center;
+}
+
+.pyramid {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  width: 100vmin;
+  aspect-ratio: 2 / 1;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1vmin;
+}
+
+.pyramid{
+  margin-bottom: 20px;
+}
+
+.pyramid > * {
+  background: white;
+}
+#one {
+  background-color: #5449a7;
+}
+#two {
+  background-color: #c153ad;
+}
+#three {
+  background-color: #57c549
+}
+
+
+.text {
+  text-align: center;
+  margin-top: 60px;
+}
+
